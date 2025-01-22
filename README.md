@@ -1,10 +1,12 @@
-# AllDayDrift
-Si tratta del progetto svolto per il corso di progettazione web presso il CdL di ingegneria informatica dell'università di Pisa.
-Scritto in html, css, php e javascript, il progetto riproduce un gioco di corse tra auto nelle quali è possibile gareggiare contro i fantasmi dei player che hanno già corso in precedenza.
+# SmartBuildings
 
-Sono implementati efficienti metodi di collisine tra oggetti e di memorizzazione dei dati dei fantasmi.
+Si tratta del progetto svolto per il corso di basi di dati presso il CdL di ingegneria informatica dell'università di Pisa. Scritto esclusivamente in SQL, il progetto simila il funzionamento di un database per un'azienda di costruzioni.
+Oltre che gestire la manodopera, i materiali a disposizione e gli edifici precedentemente costruiti, il database è in grado di gestire i dati ottenuti da sensori per riconoscere quali costruzioni siano a rischio edile, attraverso un confronto con i danni già avvenuti sugli edifici costruiti con materiale simile.
 
-Una guida più completa ai controlli ed al funzionamento più generale del gioco è visibile nella homepage del progetto.
+Oltre che tutti gli script SQL, lo zip contiene tre diverse documentazioni:
+    -documentazione.pdf è la guida principale al database
+    -generalizzazione.pdf mostra la prima struttura del database secondo il formalismo entity-relationship
+    -ristrutturazione.pdf mostra la struttura finale del database dopo aver risolto tutte le generalizzazioni in generalizzazione.pdf
 
-Questo progetto utilizza XAMPP per inizializzare un server in locale.
-Per inizializzarlo è sufficiente copiare il contenuto dello zip nella cartella htdocs di XAMPP ed inizializzare un server SQL utilizando lo script "fossari_616157.sql".
+Come già intuibile questo progetto ha bisogno di MySQL per funzionare.
+Al progetto hanno lavorato due studenti. Il cognome del collega è incluso nel nome dello zip.
