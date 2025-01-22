@@ -1,4 +1,4 @@
-# programmi VLSM
+# programmino VLSM
 
 Per l'esame a scelta di progettazione di reti informatiche per il CdL di ingegneria informatica dell'università di Pisa ho sviluppato questo semplice programmino che riesce in automatico a programmare secondo l'algoritmo VLSM i diversi indirizzi di rete di un un sistema più grande.
 
