@@ -1,7 +1,12 @@
-# AllDayDrift
-Si tratta del progetto svolto per il corso di progettazione web presso il CdL di ingegneria informatica dell'università di Pisa.
-Scritto in html, css, php e javascript, il progetto riproduce un gioco di corse tra auto nelle quali è possibile gareggiare contro i fantasmi dei player che hanno già corso in precedenza.
-Sono implementati efficienti metodi di collisine tra oggetti e di memorizzazione dei dati dei fantasmi.
-Una guida più completa ai controlli ed al funzionamento più generale del gioco è visibile nella homepage del progetto.
-Questo progetto utilizza XAMPP per inizializzare un server in locale.
-Per inizializzarlo è sufficiente copiare il contenuto dello zip nella cartella htdocs di XAMPP ed inizializzare un server SQL utilizando lo script "fossari_616157.sql".
+# FastTransport
+Si tratta del progetto svolto per il corso a scelta di programmazione avanzata presso il CdL di ingegneria informatica dell'università di Pisa.
+Il codice si compone di due progetti distinti, PROGETTO_CLIENT e PROGETTO_SERVER, da inserire come progetti di NetBeans, l'IDE utilizzato nel nostro corso per programmare in Java.
+Il server è stato creato avvalendosi del framework Spring.
+Il client mette a disposizione un'interfaccia grafica javaFX.
+
+Questo progetto simula il funzionamento di un'applicazione client-server per la gestione di un'azienda di trasporti.
+Al database dell'azienda possono accedere due classi di lavoratori: gli admin possono visualizzare tutte le informazioni contenute nel database, possono aggiungere nuovi viaggi, veicoli e sedi logistiche dell'azienda; i worker sono i lavoratori "manuali" del database e non possono fare altro che visualizzare i viaggi che li riguardano attraverso un'apposito calendario.
+Punto forte del progetto è il riuscito controllo degli accessi al database che impedisce ai normali worker di visualizzare i dati sensibili degli altri utenti.
+
+Per eseguire il progetto è necessario avere a disposizione NetBeans, javaFX e MySQL.
+Avviando l'applicazione server, se MySQL è già attivo, il database di progetto verrà inizializzato automaticamente.
