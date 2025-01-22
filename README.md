@@ -1,6 +1,8 @@
-# EscapeRoom
-Si tratta del progetto svolto per il corso a scelta di reti informatiche presso il CdL di ingegneria informatica dell'università di Pisa.
-Scritto interamente in C, la traccia di progetto richiedava l'implementazione di una partita ad un'escape room, nella quale il giocatore (il client), dopo essersi registrato e loggato al sistema comunicava con la room (il server) per interagire con diverse località ed oggetti, per poi utilizzare il contenuto del suo inventario per risolvere indovinelli ed enigmi.
+# programmi VLSM
 
-All'interno dello zip è possibile visionare diversi file, tra cui la documentazione di progetto ed il makefile.
-Lo sviluppo del progetto è stato effettuato su una virtual machine debian, necessaria alla compilazione date le librerie che tale sistema mette a disposizione e poi utilizzate in questo progetto.
+Per l'esame a scelta di progettazione di reti informatiche per il CdL di ingegneria informatica dell'università di Pisa ho sviluppato questo semplice programmino che riesce in automatico a programmare secondo l'algoritmo VLSM i diversi indirizzi di rete di un un sistema più grande.
+
+Potendo portare in sede d'esame "qualsiasi tipo di materiale" (passate prove d'esame, ducumentazione riguardo gli algoritmi di comunicazione) ho passato un'oretta a scrivere questo programma che mi ha fatto risparmiare almeno mezz'ora in sede d'esame.
+Il lettore di questo testo può dire ciò che vuole, anche se non ho mai riferito al professore l'esistenza di questo programma è stato lui a lasciarci carta bianca.
+
+(ingegneria può essere meno difficile)
